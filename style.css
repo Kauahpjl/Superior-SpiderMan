@@ -1,10 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Gothic:wght@400..700&display=swap');
 * {
     height: 100%;
     background-attachment: fixed;
 }
+body {
+    background-image: url('imgs/background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+}
 
 h1 {
     background-color: #731616;
+    font-family: "Special Gothic", sans-serif;
     text-align: center;
     align-content: center;
     border-radius: 12px;
@@ -15,29 +24,41 @@ h1 {
 }
 
 #subTitle {
+    background-color: #F28379;
+    border-radius: 12px;
+    font-family: "Special Gothic", sans-serif;
     margin: 10px auto;
     text-align: center;
-    width: auto;
+    width: 15em;
     height: auto;
 }
 
 .container01 {
     display: flex;
     margin-top: 20px;
+    height: auto;
+    align-items: center;
 }
+
+.container01 img {
+    height: 45rem;
+}
+
 .container01 .container02 {
     background-color: #731616;
     border-radius: 12px;
+    height: 25em;
     box-shadow: 0px 3px 7px rgb(0, 0, 0);
-    margin: 0px ;
+    margin: 20px ;
     text-align: center;
 }
 .container01 .container02 p {
     text-align: center;
-    margin: 0px;
     height: auto;
     width: auto;
+    margin: 0px;
     padding: 20px 10px;
+    font-family: "Poppins", sans-serif;
 }
 
 .container01 .container02 button {
@@ -46,4 +67,7 @@ h1 {
     border-radius: 20px;
     border: none;
     margin: 0px ;
+    background-color: #F28379;
+    font-family: "Special Gothic", sans-serif;
+    font-weight: 600;
 }
